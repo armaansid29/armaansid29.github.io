@@ -24,16 +24,12 @@
       display: flex;
       justify-content: center;
       margin-top: 10px;
-      animation: slideInDown 1s ease;
     }
 
     nav a {
       color: #fff;
       text-decoration: none;
       margin: 0 10px;
-      opacity: 0;
-      animation: fadeIn 1s ease forwards;
-      animation-delay: 0.5s;
     }
 
     /* Main content styles */
@@ -42,7 +38,6 @@
       margin: 20px;
       background-color: #f1f1f1;
       border-radius: 5px;
-      animation: fadeIn 1s ease;
     }
 
     /* Footer styles */
@@ -51,35 +46,6 @@
       color: #fff;
       padding: 10px;
       text-align: center;
-      animation: slideInUp 1s ease;
-    }
-
-    /* Animation keyframes */
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-
-    @keyframes slideInDown {
-      from {
-        transform: translateY(-100%);
-      }
-      to {
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes slideInUp {
-      from {
-        transform: translateY(100%);
-      }
-      to {
-        transform: translateY(0);
-      }
     }
   </style>
 </head>
@@ -87,16 +53,16 @@
   <header>
     <h1>Welcome to My Website</h1>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="schedule.html">Schedule</a>
     </nav>
   </header>
 
   <main>
-    <h2>About</h2>
-    <p>This is a sample website template. Feel free to customize it to suit your needs.</p>
+    <h2>Home</h2>
+    <p>Welcome to the home page of our website.</p>
   </main>
 
   <footer>
